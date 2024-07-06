@@ -116,6 +116,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyGenerator.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -327,6 +330,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyGenerator.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>

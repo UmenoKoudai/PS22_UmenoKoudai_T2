@@ -9,7 +9,7 @@ namespace constnts {
 	}
 }
 
-class BackGround {
+class BackGround{
 	Rect map[constnts::BackGround::MAX];
 
 	BackGround() {
